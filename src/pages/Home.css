@@ -1,0 +1,111 @@
+header {
+  margin: 0px;
+  background-color: #ddd;
+}
+header .row h5 {
+  color: var(--btn-color);
+  font-size: 20px;
+  margin: 40px 0px 10px 0px;
+}
+header h2 {
+  color: #1f2278;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 30px 0px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+header .row {
+  margin: 50px 0px;
+}
+
+header button {
+  background-color: #f17732 !important;
+  width: 200px;
+  height: 50px;
+  border: 1px solid #f17732 !important;
+  border-radius: 4px !important;
+  margin-top: 20px;
+  transition: 0.2s ease;
+}
+header button a {
+  color: #fff;
+  font-size: 17px;
+  transition: 0.2s ease;
+}
+header button:hover {
+  opacity: 0.6;
+}
+
+header img {
+  max-width: 100%;
+  width: 430px;
+  height: auto;
+  animation: mover 1s infinite alternate;
+  -webkit-text-stroke: mover 1s infinite alternate;
+  -moz-text-stroke: mover 1s infinite alternate;
+  -o-text-stroke: mover 1s infinite alternate;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@-webkit-text-stroke mover {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@-moz-text-stroke mover {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@o-text-stroke mover {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+header svg {
+  color: #565acf;
+  font-size: 60px;
+  position: absolute;
+  left: 0;
+  top: 10%;
+  animation: mover 1s infinite alternate;
+  -webkit-text-stroke: mover 1s infinite alternate;
+  -moz-text-stroke: mover 1s infinite alternate;
+  -o-text-stroke: mover 1s infinite alternate;
+}
+header .header-box {
+  position: relative;
+  max-width: 100%;
+}
+
+header span {
+  display: block;
+  font-size: 100px;
+  color: #fff;
+  -webkit-text-stroke: 1px #f17732;
+  -moz-text-stroke: 1px #f17732;
+  -o-text-stroke: 1px #f17732;
+  -webkit-text-stroke: mover 1s infinite alternate;
+  -moz-text-stroke: mover 1s infinite alternate;
+  -o-text-stroke: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+}
