@@ -1,6 +1,10 @@
 import footerlogo from "../../assets/footerlogo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import fb from "../../assets/fb.png";
+import insta from "../../assets/instagram.png";
+import linkedin from "../../assets/linkedin.png";
+import twitter from "../../assets/twitter.png";
 
 const Footer = () => {
   return (
@@ -61,16 +65,16 @@ const Footer = () => {
             <ul className="social">
               <li>
                 <a href="#">
-                  <img src="" />
+                  <img src={fb} />
                 </a>
                 <a href="#">
-                  <img src="" />
+                  <img src={insta} />
                 </a>
                 <a href="#">
-                  <img src="" />
+                  <img src={twitter} />
                 </a>
                 <a href="#">
-                  <img src="" />
+                  <img src={linkedin} />
                 </a>
               </li>
             </ul>
