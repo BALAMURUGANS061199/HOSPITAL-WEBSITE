@@ -12,19 +12,19 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-3 col-sm-6">
-            <img src={footerlogo} />
+            <img src={footerlogo} className="footerlogo" />
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
+              industry. Lorem Ipsum has been the industry standard dummy text
               ever since the 1500s,
             </p>
-            <div className="footer-class">
+            <div className="footer-contact">
               <div className="footer-icon">
                 <FontAwesomeIcon icon={faPhone} />
               </div>
               <div className="footer-text">
                 <h6>Contact Us</h6>
-                <h2>+91 6380665692</h2>
+                <h4>+91 6380665692</h4>
               </div>
             </div>
           </div>
@@ -33,12 +33,24 @@ const Footer = () => {
             <ul>
               <li>
                 <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Blogs</a>
-                <a href="">Bookings</a>
-                <a href="">Faq's</a>
-                <a href="">Our Terms</a>
-                <a href="">Services</a>
+                <li>
+                  <a href="">About</a>
+                </li>
+                <li>
+                  <a href="">Blogs</a>
+                </li>
+                <li>
+                  <a href="">Bookings</a>
+                </li>
+                <li>
+                  <a href="">Faqs</a>
+                </li>
+                <li>
+                  <a href="">Our Terms</a>
+                </li>
+                <li>
+                  <a href="">Services</a>
+                </li>
               </li>
             </ul>
           </div>
@@ -47,11 +59,23 @@ const Footer = () => {
             <ul>
               <li>
                 <a href="">Dental Care</a>
+              </li>
+              <li>
                 <a href="">Cardiac Clinic</a>
+              </li>
+              <li>
                 <a href="">Massage therapy</a>
+              </li>
+              <li>
                 <a href="">Cardiology</a>
+              </li>
+              <li>
                 <a href="">Precious Diagonsis</a>
+              </li>
+              <li>
                 <a href="">Ambulance Services</a>
+              </li>
+              <li>
                 <a href="">Services</a>
               </li>
             </ul>
@@ -59,7 +83,7 @@ const Footer = () => {
           <div className="col-md-3 col-sm-6">
             <h2>Subscribe</h2>
             <form>
-              <input type="email" />
+              <input type="email" placeholder="Enter Email Address" />
               <button type="submit">Subscribe Now</button>
             </form>
             <ul className="social">
@@ -67,17 +91,33 @@ const Footer = () => {
                 <a href="#">
                   <img src={fb} />
                 </a>
+              </li>
+              <li>
                 <a href="#">
                   <img src={insta} />
                 </a>
+              </li>
+              <li>
+                {" "}
                 <a href="#">
                   <img src={twitter} />
                 </a>
+              </li>
+              <li>
                 <a href="#">
                   <img src={linkedin} />
                 </a>
               </li>
             </ul>
+          </div>
+        </div>
+      </div>
+      <div className="footer-bottom">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 col-md-12">
+              <span>Copyright @2024 Design & Developed By BALAMURUGAN S</span>
+            </div>
           </div>
         </div>
       </div>

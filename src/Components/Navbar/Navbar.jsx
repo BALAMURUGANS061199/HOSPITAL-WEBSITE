@@ -2,10 +2,14 @@ import { Navbar, NavDropdown, Container, Nav } from "react-bootstrap";
 import "./Nav.css";
 import logo from "../../assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faSearch } from "@fortawesome/free-solid-svg-icons";
+import {
+  faArrowLeft,
+  faPhone,
+  faSearch,
+} from "@fortawesome/free-solid-svg-icons";
 const Navbars = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} alt="" />
@@ -40,7 +44,10 @@ const Navbars = () => {
             <Nav.Link href="">(+91 6380665692)</Nav.Link>
             <Nav.Link>
               <button>
-                Contact Us <span>&gt;</span>
+                Contact Us{" "}
+                <span>
+                  <FontAwesomeIcon icon={faArrowLeft} />
+                </span>
               </button>
             </Nav.Link>
           </Nav>

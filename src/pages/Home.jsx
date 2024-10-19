@@ -2,6 +2,7 @@ import image from "../assets/doctor.png";
 import "./Home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquare } from "@fortawesome/free-solid-svg-icons";
+import Footer from "../Components/Footer/Footer";
 const Home = () => {
   return (
     <header>

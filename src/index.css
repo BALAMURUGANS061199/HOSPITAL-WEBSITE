@@ -61,3 +61,91 @@ input {
   font-size: 16px;
   font-family: "Tajawal";
 }
+
+/* Start CSS to Footer Style*/
+footer img.footerlogo {
+  width: auto;
+  height: 40px;
+  margin: 15px 0px;
+}
+footer p {
+  font-size: 17px;
+}
+footer .footer-contact {
+  display: flex;
+}
+
+footer .footer-contact .footer-icon {
+  margin: 7px 20px 0px 0px;
+  width: 40px;
+  height: 40px;
+  background-color: #f17732;
+  line-height: 40px;
+  border: 1px solid #f17732;
+  box-sizing: border-box;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+footer .footer-contact .footer-icon svg {
+  color: #fff;
+  text-align: center;
+  padding-left: 10px;
+}
+
+footer .footer-contact h6 {
+  color: #f17732;
+  margin-bottom: 7px;
+}
+
+footer .footer-contact h4 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+footer h2 {
+  color: #1f2278;
+  font-size: 30px;
+  margin: 15px 0px;
+}
+footer ul {
+  margin-top: 17px;
+}
+
+footer ul li a {
+  color: #333;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+footer form {
+  margin: 15px 0px;
+}
+footer form input {
+  border: 1px solid#ccc;
+  margin: 10px 0px;
+  width: 100%;
+}
+footer form button {
+  background-color: #f17732 !important;
+  border: 1px solid #f17732 !important;
+  width: 100%;
+  color: #fff;
+}
+
+footer ul.social li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer .footer-bottom {
+  margin-top: 25px;
+  text-align: center;
+  padding: 10px 0px;
+  border-top: 1px solid #ccc;
+}
+
+footer .footer-bottom span {
+  display: block;
+  margin: 10px;
+}
