@@ -33,7 +33,7 @@ const Navbars = () => {
             <NavDropdown title="Blog" id="basic-nav-dropdown">
               <NavDropdown.Item href="#">Blog Details</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#home">Contact Us</Nav.Link>
+            <Nav.Link href="/contact">Contact Us</Nav.Link>
             <Nav.Link href="">Search</Nav.Link>
             <Nav.Link>
               <FontAwesomeIcon icon={faSearch} />

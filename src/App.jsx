@@ -9,12 +9,14 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Layout from "./Components/Layout/Layout.jsx";
+import Contact from "./pages/Contact.jsx";
 
 const routes = createBrowserRouter(
   createRoutesFromElements(
-    <Route>
-      <Route path="/" element={<Layout />} />
-      <Route index path="/home" element={<Home />} />
+    <Route path="/" element={<Layout />}>
+      <Route index element={<Home />} />{" "}
+      {/* Home page set as the index route */}
+      <Route path="contact" element={<Contact />} /> {/* Contact route */}
     </Route>
   )
 );

@@ -10,7 +10,6 @@ const Layout = () => {
       <Navbars />
       <main>
         <Outlet />
-        <Home />
       </main>
       <Footer />
     </Fragment>
