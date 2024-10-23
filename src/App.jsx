@@ -16,7 +16,7 @@ const routes = createBrowserRouter(
     <Route path="/" element={<Layout />}>
       <Route index element={<Home />} />{" "}
       {/* Home page set as the index route */}
-      <Route path="contact" element={<Contact />} /> {/* Contact route */}
+      <Route path="/contact" element={<Contact />} /> {/* Contact route */}
     </Route>
   )
 );
